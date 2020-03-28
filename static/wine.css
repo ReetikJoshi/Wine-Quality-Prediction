@@ -1,0 +1,45 @@
+.container{
+	height:600px;
+	width:1250px;
+	background-image: url(ya1.jpg);
+}
+.content{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-template-rows:100px 350px;
+}
+.right{
+	height:350px;
+	width:312px;
+	grid-column: 2/3;
+	grid-row:2/3;
+}
+.left{
+	background-color: rgba(255,255,255,1);
+	/*background-color: rgba(45,83,148,0.5);*/
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-template-rows:75px 95px 30px;
+	grid-column: 3/4;
+		grid-row:2/3;
+
+}
+.form{
+
+	grid-column:1/-1; 
+	grid-row:3/4;
+}
+img{
+	/*background-color: #534BD2;*/
+
+
+
+}
+h4{
+	grid-row: 2/3;
+	grid-column: 1/-1;
+
+}
+
+
+

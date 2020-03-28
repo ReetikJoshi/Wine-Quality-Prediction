@@ -1,0 +1,12 @@
+.container{
+	height:600px;
+	width:1250px;
+	background-image: url(ya1.jpg);
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+div{
+	text-align: center;
+	line-height: 1fr;
+}
