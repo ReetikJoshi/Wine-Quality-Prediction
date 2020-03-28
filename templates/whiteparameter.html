@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>parameter</title>
+	<link rel="stylesheet" type="text/css" href="static/parameter.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+<body>
+	<div class="container">
+		<form method="POST" action="/whitewinepredict">
+		<div class="one form-group text-light">
+			<label id="hey">Fixed Acidity:</label>
+			<input type="number" name="a" id="hey" step="0.0001" placeholder="4.6 to 15.9" 
+			>
+		</div>
+		<div class="two form-group text-light">
+			<label>Volatile Acidity:</label>
+			<input type="number" name="b"step="0.00001" placeholder="0.210 to 1.33">
+		</div>
+		
+		<div class="four form-group text-light">
+			<label>Residual Sugar:</label>
+			<input type="number" name="d"step="0.00001" placeholder="1.2 to 8.3">
+		</div>
+		
+		<div class="six form-group text-light">
+			<label>Free Sulphur dioxide:</label>
+			<input type="number" name="f"step="0.0001" placeholder="3 to 52">
+		</div>
+		<div class="seven form-group text-light">
+			<label>Total Sulphur dioxide:</label>
+			<input type="number" name="g"step="0.00001" placeholder="10 to 145">
+		</div>
+		<div class="eight form-group text-light">
+			<label>Density:</label>
+			<input type="number" name="h" step="0.00001" placeholder="0.99080 to 1.00320">
+		</div>
+		<div class="nine form-group text-light">
+			<label>PH:</label>
+			<input type="number" name="i"step="0.00001" placeholder="2.74 to 3.90">
+		</div>
+		
+		<div class="eleven form-group text-light">
+			<label>Alcohol:</label>
+			<input type="number" name="k"step="0.00001" placeholder="8.4 to 15">
+		</div>
+		<div class=" form-group">
+			<button class="btn btn-primary" type="submit">Predict</button>
+		</div>
+		
+	</form>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
